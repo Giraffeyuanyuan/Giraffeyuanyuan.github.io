@@ -4,9 +4,9 @@
 
 # Site
 title: Giraffe 的博客
-subtitle: ''
-description: ''
-keywords:
+subtitle: '长颈鹿爱远远'
+description: '欢迎你来到 Giraffe 的博客，这里有我的学习笔记、生活记录和一些有趣的分享。'
+keywords: 博客
 author: Giraffe
 language: zh-CN
 timezone: Asia/Shanghai
@@ -101,4 +101,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/Giraffeyuanyuan/Giraffeyuanyuan.github.io.git'
+  branch: main

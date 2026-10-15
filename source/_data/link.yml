@@ -1,0 +1,99 @@
+- class_name: 学习与视频
+  class_desc: 学习、分享与获取知识
+  link_list:
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com/
+      avatar: https://www.bilibili.com/favicon.ico
+      descr: 国内知名视频弹幕网站，学习与娱乐兼备
+
+    - name: YouTube
+      link: https://www.youtube.com/
+      avatar: https://www.youtube.com/favicon.ico
+      descr: 全球在线视频与内容分享平台
+
+    - name: 知乎
+      link: https://www.zhihu.com/
+      avatar: https://www.zhihu.com/favicon.ico
+      descr: 中文互联网问答与知识分享社区
+
+
+- class_name: AI 工具
+  class_desc: 提升学习、科研与工作效率
+  link_list:
+    - name: ChatGPT
+      link: https://chatgpt.com/
+      avatar: https://chatgpt.com/favicon.ico
+      descr: OpenAI 推出的人工智能助手
+
+    - name: DeepSeek
+      link: https://chat.deepseek.com/
+      avatar: https://chat.deepseek.com/favicon.ico
+      descr: DeepSeek AI 对话与推理助手
+
+    - name: Kimi
+      link: https://www.kimi.com/
+      avatar: https://www.kimi.com/favicon.ico
+      descr: Moonshot AI 推出的智能助手
+
+    - name: 豆包
+      link: https://www.doubao.com/
+      avatar: https://www.doubao.com/favicon.ico
+      descr: 字节跳动推出的 AI 智能助手
+
+    - name: 通义千问
+      link: https://tongyi.aliyun.com/
+      avatar: https://tongyi.aliyun.com/favicon.ico
+      descr: 阿里云推出的大模型智能助手
+
+    - name: Gemini
+      link: https://gemini.google.com/
+      avatar: https://gemini.google.com/favicon.ico
+      descr: Google 推出的人工智能助手
+
+
+- class_name: 开发工具
+  class_desc: 编程、开发与技术学习
+  link_list:
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://github.com/favicon.ico
+      descr: 全球最大的开源代码托管平台
+
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://hexo.io/favicon.ico
+      descr: 快速、简洁且强大的静态博客框架
+
+    - name: LeetCode
+      link: https://leetcode.cn/
+      avatar: https://leetcode.cn/favicon.ico
+      descr: 编程算法学习与刷题平台
+
+    - name: CSDN
+      link: https://www.csdn.net/
+      avatar: https://www.csdn.net/favicon.ico
+      descr: 中文开发者技术交流社区
+
+    - name: Stack Overflow
+      link: https://stackoverflow.com/
+      avatar: https://stackoverflow.com/favicon.ico
+      descr: 全球开发者问答社区
+
+
+- class_name: 常用网站
+  class_desc: 日常使用的网站
+  link_list:
+    - name: 百度
+      link: https://www.baidu.com/
+      avatar: https://www.baidu.com/favicon.ico
+      descr: 中文搜索引擎
+
+    - name: 微博
+      link: https://weibo.com/
+      avatar: https://weibo.com/favicon.ico
+      descr: 中文社交媒体平台
+
+    - name: 小红书
+      link: https://www.xiaohongshu.com/
+      avatar: https://www.xiaohongshu.com/favicon.ico
+      descr: 生活方式与内容分享社区
