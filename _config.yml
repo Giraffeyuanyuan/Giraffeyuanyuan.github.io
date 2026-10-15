@@ -98,6 +98,13 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+# Local search index (used by Butterfly's local_search)
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

@@ -16,25 +16,15 @@ nav:
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
-  fixed: false
+  fixed: true
 
 menu:
-首页: / || fas fa-home
-时间轴: /archives/ || fas fa-archive
-标签: /tags/ || fas fa-tags
-分类: /categories/ || fas fa-folder-open
-链接||fa fa-heartbeat:
-  - name: 学习笔记
-    link: /archives/learning-notes/
-    icon: fas fa-book
-  - name: 生活记录
-    link: /archives/life-records/
-    icon: fas fa-camera-retro
-  - name: 有趣分享
-    link: /archives/interesting-shares/
-    icon: fas fa-smile-beam
-友链: /link/ || fas fa-link
-关于: /about/ || fas fa-heart
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  常用链接: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 
 # --------------------------------------
@@ -60,14 +50,14 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  fab fa-github: https://github.com/Giraffeyuanyuan || GitHub || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 avatar:
   img: /img/butterfly-icon.png
@@ -126,7 +116,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: 'Page Not Found'
+  subtitle: '页面没有找到，回首页看看吧'
   background: /img/error-page.png
 
 post_meta:
@@ -163,9 +153,9 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
-  effect: true
+  effect: false
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -179,6 +169,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 长颈鹿爱远远
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -196,9 +187,9 @@ index_layout: 3
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   # If you set method to 2 or 3, the length need to config
-  length: 500
+  length: 180
 
 # --------------------------------------
 # Post Settings
@@ -216,7 +207,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href:
+  author_href: https://github.com/Giraffeyuanyuan
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -302,11 +293,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: 访问我的 GitHub
+      link: https://github.com/Giraffeyuanyuan
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到 Giraffe 的博客，分享学习笔记、生活记录和有趣的发现。
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -401,13 +392,13 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
   start:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -430,7 +421,7 @@ anchor:
   # When you scroll, the URL will update according to header id.
   auto_update: false
   # Click the headline to scroll and update the anchor
-  click_to_scroll: false
+  click_to_scroll: true
 
 photofigcaption: false
 
@@ -443,7 +434,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -488,8 +479,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 搜索文章标题或内容
 
   # Algolia Search
   algolia_search:
@@ -506,7 +497,7 @@ search:
     unescape: false
     # Enable pagination for search results
     pagination:
-      enable: false
+      enable: true
       # Number of search results per page
       hitsPerPage: 8
     CDN:
@@ -927,7 +918,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox:
+lightbox: medium_zoom
 
 # --------------------------------------
 # Tag Plugins settings
@@ -1024,9 +1015,9 @@ instantpage: false
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Use browser's native lazyload instead of vanilla-lazyload
-  native: false
+  native: true
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:
